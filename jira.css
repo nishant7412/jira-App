@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;  
+    }
+
+.header{
+    background-color: black;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.color_pallete{
+    height: 65%;
+    width: 12rem;
+    background-color:#2f3640;
+    margin-right: 5rem;
+    margin-left: 2rem;
+    border-radius: 7px;
+    display: flex;
+   
+}
+
+.color_boxes{
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color{
+    height: 50%;
+    width: 50%;
+    border-radius: 4px;
+
+}
+
+.pink{
+    background-color: lightpink;
+}
+.blue{
+    background-color: lightblue;
+}
+.green{
+    background-color: lightgreen;
+}
+.black{
+    background-color: black;
+}
+
+.option{
+    display: flex;
+    height: 65%;
+    width: 20%;
+    background-color:#2f3640;
+    margin-right: 4rem;
+  
+   
+}
+
+.box{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    color: white;
+    font-size: 1.75rem;
+}
+
+/* ****************MAIN******************* */
+
+.main{
+    min-height: 89vh;
+    background-color: rgb(241, 234, 234);
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.ticket{
+    height: 10rem;
+    width: 16rem;
+    /* margin-top: 10rem;
+    margin-left: 10rem; */
+   }
+
+.ticket_header{
+    height: 6%;
+    /* background-color: black */
+}
+
+.ticket_content{
+    height: 94%;
+}
+
+.ticket_id{
+    height: 20%;
+    font-weight: bolder;
+    background-color: white;    
+    font-family: sans-serif;
+    color: #989393;
+    padding-top: 0.4rem;
+    padding-left: 1rem;
+}
+
+textarea{
+    height: 80%;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 145%;
+    text-align: center;
+    /* background-color: aqua; */
+
+}
+
+.clicked{
+    background-color: rgb(84, 84, 84);
+}
+
+/* **********************MODAL*********** */
+
+.modal{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 18rem;
+    width:35rem ;
+    position: fixed;
+    top: 10rem;
+    /* to center vetically */
+    left: calc((100vw- 35rem))/2;
+    background: white;
+    display: flex;
+    
+}
+
+.content_area{
+    width: 70%;
+    height: 100%;
+    font-size: 2rem;
+    padding: 2rem;
+}
+.pallet_container{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(56, 54, 54);
+    display: flex;
+    /* horizontal center */
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.pallet_color{
+  
+    height: 15%;
+    width: 60%;
+ 
+}
